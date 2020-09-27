@@ -1,0 +1,24 @@
+{
+  "name": "fzbz",
+  "version": "1.0.0",
+  "description": "FizzBuzz (modified) on one million numbers, positive integers",
+  "main": "fzbz-1.js",
+  "scripts": {
+    "fzbz": "echo '\nfzbz-1.js\n---------' > out.txt && node fzbz-1.js >> out.txt && echo '\nfzbz-2.js\n---------' >> out.txt && node fzbz-2.js >> out.txt && echo '\nfzbz-3.js\n---------' >> out.txt && node fzbz-3.js >> out.txt && echo '\nfzbz-4.js\n---------' >> out.txt && node fzbz-4.js >> out.txt && echo '\nfzbz-5.js\n---------' >> out.txt && node fzbz-5.js >> out.txt && echo '\nfzbz-6.js\n---------' >> out.txt && node fzbz-6.js >> out.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anshhq/fzbz.git"
+  },
+  "author": "FizzBuzz, Fizz, Buzz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anshhq/fzbz/issues"
+  },
+  "homepage": "https://github.com/anshhq/fzbz#readme",
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  }
+}
